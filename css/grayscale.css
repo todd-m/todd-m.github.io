@@ -144,7 +144,7 @@ th {
 .intro {
     display: table;
     width: 100%;
-    height: auto;
+    height: 100%;
     padding: 100px 0;
     text-align: center;
     color: #fff;
@@ -504,4 +504,31 @@ body {
 /* Show at least something when animations not supported */
 .no-cssanimations .cb-slideshow li span{
     opacity: 1;
+}
+
+/* BandsinTown Widget */
+#bit-events {
+width: 100%;
+position: relative;
+top: -40px;
+}
+
+#bit-events a.bit-track-artist-header {
+visibility: hidden;
+}
+
+tr.bit-header {
+visibility: hidden;
+}
+
+th.bit-date {
+min-width: 60px !important;
+}
+
+#bit-events td .bit-uiButton {
+visibility: hidden;
+}
+
+a.bit-event-description-link.toggle-comments {
+visibility: hidden;
 }

@@ -5,6 +5,14 @@
  * Mods for Madam West by Mike McDearmon + Madam West
  */
 
+ /* Fonts */
+
+@font-face { 
+font-family: 'Neutra Display Light';
+src: url(../fonts/NeutraDisp-LightAlt.eot);
+src: url(../fonts/NeutraDisp-LightAlt.ttf); 
+}
+
 body {
     width: 100%;
     height: 100%;
@@ -80,7 +88,7 @@ th {
 }
 
 .navbar-custom .navbar-brand {
-    font-weight: 700;
+    font-family: 'Neutra Display Light', Montserrat, Helvetica, Arial, sans-serif;
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -162,6 +170,7 @@ th {
 
 .intro .intro-body .brand-heading {
     font-size: 40px;
+    font-family: 'Neutra Display Light', Montserrat, Helvetica, Arial, sans-serif;
 }
 
 .intro .intro-body .intro-text {

@@ -103,7 +103,7 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h1 class="brand-heading">MADAM WEST</h1>
-                        <p class="intro-text">Latest: <a href="#video" class="page-scroll" onClick="_gaq.push(['_trackEvent', 'Interactions', 'Latest News Link', 'Click Link']);">Check out our new music video "Darlin'"</a></p>
+                        <p class="intro-text">Latest: <a href="#video" class="page-scroll" id="latest-link">Check out our new music video "Darlin'"</a></p>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -298,6 +298,14 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
+
+    <!-- Event Tracking -->
+    <script>
+    // Using jQuery Event API v1.3
+        $('#latest-link').on('click', function() {
+          ga('send', 'event', 'button', 'click', 'latest news link');
+        }); 
+    </script>
 
 </body>
 

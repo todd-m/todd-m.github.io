@@ -718,8 +718,7 @@ visibility: hidden;
 }
 
 #mc-embedded-subscribe {
-    margin-top: 40px !important;
-    margin-bottom: 60px !important;
+    margin: 40px 0px 60px 0px !important;
     display:inline-block !important;
 }
 

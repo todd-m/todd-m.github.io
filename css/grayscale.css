@@ -175,6 +175,7 @@ th {
     font-size: 40px;
     font-family: 'Neutra Display Light', Helvetica, Arial, sans-serif;
     text-shadow: 0px 0px 6px rgba(0,0,0,0.2);
+    white-space: nowrap;
 }
 
 .intro .intro-body .intro-text {

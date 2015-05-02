@@ -682,7 +682,6 @@ visibility: hidden;
 }
 
 .mc-field-group {
-    margin-bottom: 20px;
     text-align: left;
 }
 
@@ -748,7 +747,7 @@ visibility: hidden;
 }
 
 .mailchimp-submit {
-    text-align: auto;
+    text-align: center;
     margin-left: 0px;
     margin-right: 0px;
 }

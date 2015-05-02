@@ -377,7 +377,7 @@ th {
 }
 
 .btn-default {
-    border: 1px solid #F6C255;
+    border: 1px solid #F6C255 !important;
     outline: 0;
     color: #000;
     background-color: #F6C255;
@@ -676,7 +676,7 @@ visibility: hidden;
   display: block;
   position: relative;
   text-align: left;
-  padding: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px !important;
 }
 
 #mc_embed_signup_scroll > h3 {
@@ -720,7 +720,7 @@ visibility: hidden;
 #mc-embedded-subscribe {
     margin-top: 40px;
     margin-bottom: 60px;
-    display:inline-block;
+    display:inline-block !important;
 }
 
 #mc_embed_signup form {

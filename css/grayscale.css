@@ -739,6 +739,9 @@ visibility: hidden;
 }
 
 #mc_embed_signup .mc-field-group .asterisk {
+  position: absolute;
+  top: 30px !important;
+  right: 10px;
   color: red;
 }
 

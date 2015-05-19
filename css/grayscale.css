@@ -173,6 +173,8 @@ th {
 
 .intro .intro-body .brand-heading {
     font-size: 40px;
+    position:relative;
+    top:-70px;
     font-family: 'Neutra Display Light', Helvetica, Arial, sans-serif;
     text-shadow: 0px 0px 6px rgba(0,0,0,0.2);
     white-space: nowrap;
@@ -184,6 +186,13 @@ th {
     margin-left:auto;
     margin-right:auto;
     text-shadow: 0px 0px 2px rgba(0,0,0,0.2);
+    position:relative;
+    top:-60px;
+}
+
+.intro .intro-body .btn-circle {
+    position: relative;
+    top:-50px;
 }
 
 @media(min-width:767px) {
@@ -195,11 +204,18 @@ th {
     .intro .intro-body .brand-heading {
         font-size: 100px;
         padding-top:150px;
+        top:0px;
     }
 
     .intro .intro-body .intro-text {
         font-size: 25px;
         line-height: 34px;
+        top:0px;
+    }
+
+    .intro .intro-body .btn-circle {
+        position: relative;
+        top:0px;
     }
 }
 

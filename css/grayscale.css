@@ -44,6 +44,7 @@ p {
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
+    transition-duration: 0.2s;
 }
 
 .copywrite p{
@@ -203,7 +204,7 @@ th {
 
     .intro .intro-body .brand-heading {
         font-size: 100px;
-        padding-top:150px;
+        padding-top:50px;
         top:0px;
     }
 
@@ -687,6 +688,18 @@ visibility: hidden;
 
 .table, .table th {
     text-align:left;
+}
+
+/* Quotes */
+
+#about>div>div>div>h1 {
+    font-size: 16px;
+    line-height: 26px
+}
+
+.quotes-container {
+    max-height: 100px !important;
+    text-overflow: ellipsis;
 }
 
 /* Mailing List Overrides */

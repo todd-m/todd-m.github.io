@@ -337,10 +337,6 @@ th {
     margin-top:20px;
 }
 
-#about > div > div > p {
-    text-align: left;
-}
-
 .video-section {
     width: 100%;
     padding: 50px 0;
@@ -698,8 +694,24 @@ visibility: hidden;
 }
 
 .quotes-container {
-    max-height: 100px !important;
-    text-overflow: ellipsis;
+    position:absolute;
+    /*overflow: hidden;
+    text-overflow: ellipsis;*/
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.quotes-container>span {
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.bio-container {
+    position:relative;
+    top:140px;
 }
 
 /* Mailing List Overrides */

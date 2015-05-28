@@ -693,20 +693,30 @@ visibility: hidden;
     line-height: 26px;
 }
 
+@media(min-width:767px) {
+    #about>div>div>div>h1 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+}
+
+
+@media(max-width:767px) {
+    #about>div>div>div>h1 {
+        font-size: 14px;
+    }
+}
+
 .quotes-container {
     position:absolute;
     /*overflow: hidden;
     text-overflow: ellipsis;*/
     margin-left: auto;
     margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
     left: 0;
     right: 0;
-}
-
-.quotes-container>span {
-    text-align: center;
-    margin-left:auto;
-    margin-right:auto;
 }
 
 .bio-container {

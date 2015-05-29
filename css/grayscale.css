@@ -20,6 +20,7 @@ body {
     font-weight: 300;
     color: #fff;
     background-color: #000;
+    overflow-x: hidden;
 }
 
 html {
@@ -720,8 +721,7 @@ visibility: hidden;
 }
 
 .bio-container {
-    position:relative;
-    top:140px;
+    margin-top:140px;
 }
 
 /* Mailing List Overrides */

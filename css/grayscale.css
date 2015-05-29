@@ -724,6 +724,18 @@ visibility: hidden;
     margin-top:140px;
 }
 
+@media(max-width:767px) {
+    .bio-container {
+        margin-top:160px;
+    }
+}
+
+@media(max-width:400px) {
+    .bio-container {
+        margin-top:180px;
+    }
+}
+
 /* Mailing List Overrides */
 
 #mc_embed_signup form {

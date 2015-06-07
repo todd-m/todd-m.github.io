@@ -720,6 +720,10 @@ visibility: hidden;
     right: 0;
 }
 
+.texts {
+    visibility: hidden;
+}
+
 .bio-container {
     margin-top:140px;
 }

@@ -183,11 +183,11 @@ th {
 }
 
 .intro .intro-body .intro-text {
-    font-size: 18px;
-    max-width: 300px;
+    font-size: 16px;
+    max-width: 400px;
     margin-left:auto;
     margin-right:auto;
-    text-shadow: 0px 0px 2px rgba(0,0,0,0.2);
+    text-shadow: 0px 0px 7px rgba(0,0,0,0.5);
     position:relative;
     top:-60px;
 }
@@ -210,8 +210,8 @@ th {
     }
 
     .intro .intro-body .intro-text {
-        font-size: 25px;
-        line-height: 34px;
+        /*font-size: 25px;
+        line-height: 34px;*/
         top:0px;
     }
 
@@ -510,10 +510,10 @@ body {
     animation: imageAnimation 36s linear infinite 0s; 
 }
 .cb-slideshow li:nth-child(1) span { 
-    background-image: url(../img/MadamWest-Pianos.jpg) 
+    background-image: url(../img/Todd-Hands.png) 
 }
 .cb-slideshow li:nth-child(2) span { 
-    background-image: url(../img/MadamWest-ChristineLockerby-Rooftop.jpg);
+    background-image: url(../img/MadamWest-Pianos.jpg);
     -webkit-animation-delay: 6s;
     -moz-animation-delay: 6s;
     -o-animation-delay: 6s;

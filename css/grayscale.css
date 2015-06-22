@@ -158,7 +158,7 @@ th {
     display: table;
     width: 100%;
     height: 100%;
-    padding: 0px 0; /*Pre-livestream TB = 100px*/
+    padding: 100px 0;
     text-align: center;
     color: #fff;
     background-color: #000;
@@ -479,14 +479,7 @@ body {
 
 /* INTRO IMAGE SLIDESHOW */
 
-/* START Livestream Changes */
-
-.brand-type {
-    font-family: 'Neutra Display Light', Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-}
-
-/*.cb-slideshow,
+.cb-slideshow,
 .cb-slideshow:after {   
     width: 100%;
     height: auto;
@@ -517,7 +510,7 @@ body {
     animation: imageAnimation 36s linear infinite 0s; 
 }
 .cb-slideshow li:nth-child(1) span { 
-    background-image: url(../img/Todd-Hands.png); 
+    background-image: url(../img/Todd-Hands.png) 
 }
 .cb-slideshow li:nth-child(2) span { 
     background-image: url(../img/MadamWest-Pianos.jpg);
@@ -558,9 +551,7 @@ body {
     -o-animation-delay: 30s;
     -ms-animation-delay: 30s;
     animation-delay: 30s; 
-}*/
-
-/* END Livestream changes */
+}
 
 /* Animation for the slideshow images */
 @-webkit-keyframes imageAnimation { 

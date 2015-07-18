@@ -617,6 +617,37 @@ body {
 }*/
 
 /* Single Image Backgroud */
+@-webkit-keyframes imageAnimation { 
+    0% { opacity: 0;
+    animation-timing-function: ease-in; }
+    8% { opacity: 0.4;
+         animation-timing-function: ease-out; }
+    100% { opacity: 0.4 }
+}
+
+@-moz-keyframes imageAnimation { 
+    0% { opacity: 0;
+    animation-timing-function: ease-in; }
+    8% { opacity: 0.4;
+         animation-timing-function: ease-out; }
+    100% { opacity: 0.4 }
+}
+
+@-o-keyframes imageAnimation { 
+    0% { opacity: 0;
+    animation-timing-function: ease-in; }
+    8% { opacity: 0.4;
+         animation-timing-function: ease-out; }
+    100% { opacity: 0.4 }
+}
+
+@-ms-keyframes imageAnimation { 
+    0% { opacity: 0;
+    animation-timing-function: ease-in; }
+    8% { opacity: 0.4;
+         animation-timing-function: ease-out; }
+    100% { opacity: 0.4 }
+}
 
 @keyframes imageAnimation { 
     0% { opacity: 0;

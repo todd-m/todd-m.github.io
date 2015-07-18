@@ -7,6 +7,11 @@
 
  /* Fonts */
 
+.debug {
+    border: 1px solid red;
+    background: rgba(255,0,0,0.2);
+}
+
 @font-face { 
 font-family: 'Neutra Display Light';
 src: url(../fonts/NeutraDisp-LightAlt.eot);
@@ -168,9 +173,13 @@ th {
     -o-background-size: cover;
 }
 
+.table-cell {
+    display: table-cell; 
+}
+
 .intro .intro-body {
-  /*  display: table-cell; */
     vertical-align: middle;
+    height:100%;
 }
 
 .intro .intro-body .brand-heading {
@@ -178,13 +187,13 @@ th {
     position:relative;
     top:-70px;
     font-family: 'Neutra Display Light', Helvetica, Arial, sans-serif;
-    text-shadow: 0px 0px 6px rgba(0,0,0,0.2);
+    text-shadow: 0px 0px 6px rgba(0,0,0,0.8);
     white-space: nowrap;
 }
 
 .intro .intro-body .intro-text {
     font-size: 16px;
-    max-width: 400px;
+    max-width: 500px;
     margin-left:auto;
     margin-right:auto;
     text-shadow: 0px 0px 7px rgba(0,0,0,0.5);
@@ -210,8 +219,8 @@ th {
     }
 
     .intro .intro-body .intro-text {
-        /*font-size: 25px;
-        line-height: 34px;*/
+        font-size: 20px;
+        line-height: 34px;
         top:0px;
     }
 
@@ -503,16 +512,23 @@ body {
     opacity: 0;
     z-index: 0;
     -webkit-backface-visibility: hidden;
-    -webkit-animation: imageAnimation 36s linear infinite 0s;
-    -moz-animation: imageAnimation 36s linear infinite 0s;
-    -o-animation: imageAnimation 36s linear infinite 0s;
-    -ms-animation: imageAnimation 36s linear infinite 0s;
-    animation: imageAnimation 36s linear infinite 0s; 
+    -webkit-animation: imageAnimation 36s linear 0s;
+    -moz-animation: imageAnimation 36s linear 0s;
+    -o-animation: imageAnimation 36s linear 0s;
+    -ms-animation: imageAnimation 36s linear 0s;
+    animation: imageAnimation 36s linear 0s; 
+    /* Linear anim stop at end */
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+
 }
 .cb-slideshow li:nth-child(1) span { 
-    background-image: url(../img/Todd-Hands.png) 
+    background-image: url(../img/MWLovesYou.png) 
 }
-.cb-slideshow li:nth-child(2) span { 
+/*.cb-slideshow li:nth-child(2) span { 
     background-image: url(../img/MadamWest-Pianos.jpg);
     -webkit-animation-delay: 6s;
     -moz-animation-delay: 6s;
@@ -551,10 +567,10 @@ body {
     -o-animation-delay: 30s;
     -ms-animation-delay: 30s;
     animation-delay: 30s; 
-}
+}*/
 
 /* Animation for the slideshow images */
-@-webkit-keyframes imageAnimation { 
+/*@-webkit-keyframes imageAnimation { 
     0% { opacity: 0;
     -webkit-animation-timing-function: ease-in; }
     8% { opacity: 1;
@@ -598,6 +614,16 @@ body {
     17% { opacity: 1 }
     25% { opacity: 0 }
     100% { opacity: 0 }
+}*/
+
+/* Single Image Backgroud */
+
+@keyframes imageAnimation { 
+    0% { opacity: 0;
+    animation-timing-function: ease-in; }
+    8% { opacity: 0.4;
+         animation-timing-function: ease-out; }
+    100% { opacity: 0.4 }
 }
 
 /* Show at least something when animations not supported */

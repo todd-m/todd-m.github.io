@@ -180,6 +180,9 @@ th {
 .intro .intro-body {
     vertical-align: middle;
     height:100%;
+    margin:auto;
+    position:relative;
+    left:-21px;
 }
 
 .intro .intro-body .brand-heading {

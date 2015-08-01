@@ -691,6 +691,10 @@ visibility: hidden;
   right: 16px;
 }
 
+th.bit-location {
+    width: 39% !important;
+}
+
 @media(min-width:767px) {
     .bit-venue{
     position:relative;

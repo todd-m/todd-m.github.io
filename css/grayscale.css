@@ -53,6 +53,10 @@ p {
     transition-duration: 0.2s;
 }
 
+.p-skinny {
+    margin-top:-20px;
+}
+
 .copywrite p{
     font-size: 12px;
 }

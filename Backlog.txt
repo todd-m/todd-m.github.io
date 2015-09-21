@@ -1,16 +1,14 @@
 MADAM WEST MUSIC
 
 Backlog
-	Silent video / gif play behind #music
+	Photo behind #music section
 	Easier updating for past shows
 	SEO-ify images (file names, title, alt)
 	iTunes link
-	Replace linebreaks in contact and tour dates w/ CSS
+	See More... on past shows table b/c it's getting too long
 
 Completed
 	Meta description + keywords
 	favicon
 	Auto rotating image carousel for splash
-
-Won't Do
-	Scalable SWF for title text (Futura)
+	Replace linebreaks in contact and tour dates w/ CSS

@@ -898,3 +898,11 @@ visibility: hidden;
     margin-left: 0px;
     margin-right: 0px;
 }
+
+/* Bandpage stupid widget */
+
+@media(max-width:767px) {
+.bp-extension {
+    display:none;
+}
+}

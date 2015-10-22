@@ -327,7 +327,7 @@ th {
     height: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/MW-LovesYou-Alt.jpg) no-repeat center center scroll;
+    background: url(../img/MadamWest-Fade.png) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -348,7 +348,7 @@ th {
 }
 
 .tunage {
-    margin-top:60px;
+    margin-top:30px;
 }
 
 .music-box {

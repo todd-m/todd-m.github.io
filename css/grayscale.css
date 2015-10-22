@@ -902,7 +902,7 @@ visibility: hidden;
 /* Bandpage stupid widget */
 
 @media(max-width:767px) {
-.bp-extension {
-    display:none;
+.bp-extension.bp-extension-parsed {
+    display:none !important;
 }
 }

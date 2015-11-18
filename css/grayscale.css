@@ -692,7 +692,7 @@ visibility: hidden;
 }
 
 th.bit-location {
-    /*width: 39% !important;*/
+    width: 39% !important;
 }
 
 @media(min-width:767px) {
@@ -733,7 +733,7 @@ td.bit-venue{
 }
 
 .bit-tickets, .bit-artist-event-link, .bit-rsvp {
-    /*display:none;*/
+    display:none;
 }
 
 tr.bit-header {
@@ -745,11 +745,11 @@ min-width: 60px !important;
 }
 
 #bit-events td .bit-uiButton {
-/*visibility: hidden;*/
+visibility: hidden;
 }
 
 a.bit-event-description-link.toggle-comments {
-/*visibility: hidden;*/
+visibility: hidden;
 }
 
 .table, .table th {
@@ -902,7 +902,7 @@ a.bit-event-description-link.toggle-comments {
 /* Bandpage stupid widget */
 
 @media(max-width:767px) {
-.bp-extension.bp-extension-parsed {
-    display:none !important;
-}
+    .bp-extension.bp-extension-parsed {
+        display:none !important;
+    }
 }

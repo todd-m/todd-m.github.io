@@ -687,10 +687,6 @@ visibility: hidden;
   right: 16px;
 }
 
-th.bit-location {
-    width: 39% !important;
-}
-
 .bit-header tr {
     display: table-header-group;
     vertical-align: middle;
@@ -707,7 +703,6 @@ td.bit-venue{
 
 .bit-tickets, .bit-artist-event-link, .bit-rsvp {
     /*display:none;*/
-    min-width: 30px;
 }
 
 .bit-rsvp {
@@ -730,17 +725,14 @@ visibility: hidden;
 }
 
 th.bit-date {
-min-width: 60px !important;
 }
 
 #bit-events td .bit-uiButton {
 /*visibility: hidden;*/
-min-width: 30px;
 }
 
 a.bit-event-description-link.toggle-comments {
 /*visibility: hidden;*/
-min-width: 30px;
 }
 
 .table, .table th {

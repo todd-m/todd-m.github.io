@@ -691,29 +691,6 @@ th.bit-location {
     width: 39% !important;
 }
 
-@media(min-width:767px) {
-    .bit-venue{
-    position:relative;
-    left:110px;
-    }
-
-    .bit-location{
-        position:relative;
-        right:4px;
-    }
-}
-
-@media(max-width:767px) {
-    .bit-venue{
-    padding-left:20%;
-    }
-
-    .bit-location{
-        position:relative;
-        right:4px;
-    }
-}
-
 .bit-header tr {
     display: table-header-group;
     vertical-align: middle;

@@ -729,7 +729,8 @@ td.bit-venue{
 }
 
 .bit-tickets, .bit-artist-event-link, .bit-rsvp {
-    display:none;
+    /*display:none;*/
+    min-width: 30px;
 }
 
 tr.bit-header {
@@ -741,11 +742,13 @@ min-width: 60px !important;
 }
 
 #bit-events td .bit-uiButton {
-visibility: hidden;
+/*visibility: hidden;*/
+min-width: 30px;
 }
 
 a.bit-event-description-link.toggle-comments {
-visibility: hidden;
+/*visibility: hidden;*/
+min-width: 30px;
 }
 
 .table, .table th {

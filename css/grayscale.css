@@ -710,6 +710,21 @@ td.bit-venue{
     min-width: 30px;
 }
 
+.bit-rsvp {
+    display:none;
+}
+
+#bit-events td.bit-tickets, #bit-events th.bit-tickets {
+    width: auto !important;
+    padding-right: 8px;
+    text-align: right;
+}
+
+a.bit-buy-tix {
+    text-align:right !important;
+    float: right !important;
+}
+
 tr.bit-header {
 visibility: hidden;
 }

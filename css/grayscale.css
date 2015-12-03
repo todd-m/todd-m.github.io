@@ -90,6 +90,10 @@ th {
     font-weight: 400;
 }
 
+.navbar-brand {
+    line-height: 26px;
+}
+
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 2px solid rgba(255,255,255,.8);
@@ -889,7 +893,7 @@ a.bit-event-description-link.toggle-comments {
 }
 
 .photo-box {
-    height: 80px;
+    height: 90px;
 }
 
 /* OOCSS classes ============================================ */

@@ -460,13 +460,13 @@
                 </p>
                 <ul class="list-inline banner-social-buttons">
                     <li>
-                        <a href="https://twitter.com/madamwestmusic" target="blank" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        <a href="https://twitter.com/madamwestmusic" target="blank" id="social-twitter" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                     </li>
                     <li>
-                        <a href="https://tr-tr.facebook.com/madamwestmusic" target="blank" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                        <a href="https://tr-tr.facebook.com/madamwestmusic" target="blank" id="social-facebook" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
                     </li>
                     <li>
-                        <a href="https://plus.google.com/109993043415315665003/posts" target="blank" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                        <a href="https://plus.google.com/109993043415315665003/posts" target="blank" id="social-googleplus" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
                     </li>
                 </ul>
             </br></br></br></br></br></br>
@@ -529,43 +529,6 @@
     <!-- Type and Animations -->
     <script src="js/jquery.lettering.js"></script>
     <script src="js/jquery.textillate.js"></script>
-    <script>
-        $('.tlt').textillate({
-          // the default selector to use when detecting multiple texts to animate
-          selector: '.texts',
-          loop: true,
-          minDisplayTime: 2000,
-          initialDelay: 500,
-          autoStart: true, 
-
-          in: {
-            // set the effect name
-            effect: 'fadeInLeftBig',
-            sync: true,
-            reverse: false,
-
-            // callback that executes once the animation has finished
-            callback: function () {}
-          },
-
-          // out animation settings.
-          out: {
-            effect: 'fadeOut',
-            delayScale: 1.5,
-            delay: 3400,
-            sync: true,
-            shuffle: false,
-            reverse: false,
-            callback: function () {}
-          },
-
-          // callback that executes once textillate has finished 
-          callback: function () {},
-
-          // set the type of token to animate (available types: 'char' and 'word')
-          type: 'char'
-        });
-    </script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
@@ -578,27 +541,36 @@
 
     <!-- Event Tracking -->
     <script>
-    // Using jQuery Event API v1.3
+		// News Button
         $('#latest-link').on('click', function() {
           ga('send', 'event', 'button', 'click', 'latest news link');
+        });
+    	// Subscribe to Newsletter
+        $('.mailchimp-submit').on('click', function() {
+          ga('send', 'event', 'button', 'click', 'subscribe to newsletter');
         }); 
-    </script>
-
-    <!-- Current Date -->
-    <script>
-        var d = new Date();
-        var n = d.getFullYear();
-        document.getElementById("current-date").innerHTML = n;
+    	// Social - Twitter
+        $('#social-twitter').on('click', function() {
+          ga('send', 'event', 'button', 'click', 'social twitter');
+        }); 
+    	// Social - Facebook
+        $('#social-facebook').on('click', function() {
+          ga('send', 'event', 'button', 'click', 'social facebook');
+        });  
+        // Social - Google+
+        $('#social-googleplus').on('click', function() {
+          ga('send', 'event', 'button', 'click', 'social google plus');
+        });     
     </script>
     
     <!-- Knowledge Graph Logo -->
     <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Organization",
-      "url": "http://madamwest.com",
-      "logo": "http://madamwest.com/img/MadamWest-2015.jpg"
-    }
+	    {
+	      "@context": "http://schema.org",
+	      "@type": "Organization",
+	      "url": "http://madamwest.com",
+	      "logo": "http://madamwest.com/img/MadamWest-2015.jpg"
+	    }
     </script>
 </body>
 

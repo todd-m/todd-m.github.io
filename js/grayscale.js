@@ -23,3 +23,45 @@ $(function() {
         event.preventDefault();
     });
 });
+
+// Text marquee quotes options
+$('.tlt').textillate({
+      // the default selector to use when detecting multiple texts to animate
+      selector: '.texts',
+      loop: true,
+      minDisplayTime: 2000,
+      initialDelay: 500,
+      autoStart: true, 
+
+      in: {
+        // set the effect name
+        effect: 'fadeInLeftBig',
+        sync: true,
+        reverse: false,
+
+        // callback that executes once the animation has finished
+        callback: function () {}
+      },
+
+      // out animation settings.
+      out: {
+        effect: 'fadeOut',
+        delayScale: 1.5,
+        delay: 3400,
+        sync: true,
+        shuffle: false,
+        reverse: false,
+        callback: function () {}
+      },
+
+      // callback that executes once textillate has finished 
+      callback: function () {},
+
+      // set the type of token to animate (available types: 'char' and 'word')
+      type: 'char'
+});
+
+// Current Date
+var d = new Date();
+var n = d.getFullYear();
+document.getElementById("current-date").innerHTML = n;

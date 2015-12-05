@@ -890,10 +890,15 @@ a.bit-event-description-link.toggle-comments {
 
 .photo-column {
     height: 120px;
+    overflow:hidden;
 }
 
 .photo-box {
-    height: 90px;
+    overflow:hidden;
+}
+
+.photo-box img {
+    height: 150px;
 }
 
 /* OOCSS classes ============================================ */

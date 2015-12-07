@@ -361,7 +361,7 @@ th {
 
 .video-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 0px 0;
     color: #fff;
     background-color: #000;
     -webkit-background-size: cover;
@@ -396,7 +396,7 @@ th {
     }
 
     .music-section {
-        padding: 100px 0;
+        padding: 140px 0;
     }
 
     #map {
@@ -889,16 +889,20 @@ a.bit-event-description-link.toggle-comments {
 /* Photos section */
 
 .photo-column {
-    height: 120px;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 .photo-box {
-    overflow:hidden;
+    overflow: hidden;
+    border:1px solid white;
 }
 
 .photo-box img {
-    height: 150px;
+    height: 170px;
+    cursor: pointer;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 /* OOCSS classes ============================================ */

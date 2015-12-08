@@ -47,6 +47,23 @@
       ga('send', 'pageview');
     </script>
 
+    <!-- Structured Data Markup -->
+    <script type="application/ld+json">
+	    {
+	      "@context": "http://schema.org",
+	      "@type": "MusicGroup",
+	      "url": "http://madamwest.com",
+	      "name": "Madam West",
+	      "sameAs" : [
+		    "http://www.facebook.com/madamwestmusic",
+		    "http://www.twitter.com/madamwestmusic",
+		    "http://plus.google.com/+Madamwestmusic",
+		    "https://www.instagram.com/madamwestmusic",
+		    "https://play.spotify.com/artist/1bFTN5x21lxMWmnkRv2l4x"
+		  ]
+	    }
+    </script>
+
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -579,16 +596,6 @@
         $('#social-googleplus').on('click', function() {
           ga('send', 'event', 'button', 'click', 'social google plus');
         });     
-    </script>
-    
-    <!-- Knowledge Graph Logo -->
-    <script type="application/ld+json">
-	    {
-	      "@context": "http://schema.org",
-	      "@type": "Organization",
-	      "url": "http://madamwest.com",
-	      "logo": "http://madamwest.com/img/MadamWest-2015.jpg"
-	    }
     </script>
 </body>
 

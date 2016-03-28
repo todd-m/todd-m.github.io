@@ -7,6 +7,7 @@ MADAM WEST MUSIC
     See More... on past shows table b/c it's getting too long
     Easier updating for past shows (pipe in via Google Sheets?)
 	iTunes link (still needed?)
+    Kill LESS directory? No compiler being used...
 
 #Completed
 	SEO-ify images (file names, title, alt)

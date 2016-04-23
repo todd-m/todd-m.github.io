@@ -728,7 +728,8 @@ tr.bit-header {
 visibility: hidden;
 }
 
-th.bit-date {
+td.bit-date {
+    width:60px;
 }
 
 #bit-events td .bit-uiButton {

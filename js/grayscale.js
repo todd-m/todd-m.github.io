@@ -61,6 +61,18 @@ $('.tlt').textillate({
       type: 'char'
 });
 
+// Shows ReadMore
+$(document).ready(function () {
+    $('.fulltext').hide();
+
+    $('.readmore').click(function (event) {
+        event.preventDefault();
+        $('.fulltext').slideToggle('slow');
+        $(this).text($(this).text() == 'SHOW LESS...' ? 'SHOW MORE...' : 'SHOW LESS...');
+    });
+});
+
+
 // Current Date
 var d = new Date();
 var n = d.getFullYear();

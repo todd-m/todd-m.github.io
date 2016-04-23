@@ -1,15 +1,14 @@
 MADAM WEST MUSIC
 
 #Backlog
-    Add "L" Video below Wise Blood
-    Add one Meltfest Video (Anxiety?)
-    Add Meltfest photo (and remove another or add 3rd bar of photos)
     See More... on past shows table b/c it's getting too long
+    Add Meltfest photo (and remove another or add 3rd bar of photos)
     Easier updating for past shows (pipe in via Google Sheets?)
 	iTunes link (still needed?)
 
 #Completed
-	Kill LESS directory? No compiler being used...
+	Add "L" Video below Wise Blood
+    Kill LESS directory? No compiler being used...
     SEO-ify images (file names, title, alt)
     Photo behind #music section
     Meta description + keywords

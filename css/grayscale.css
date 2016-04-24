@@ -53,10 +53,6 @@ p {
     transition-duration: 0.2s;
 }
 
-.p-skinny {
-    margin-top:-20px;
-}
-
 .copywrite p{
     font-size: 12px;
 }
@@ -349,14 +345,6 @@ th {
         padding-left: 0px;
         padding-right: 0px;
     }
-}
-
-.tunage {
-    margin-top:30px;
-}
-
-.music-box {
-    margin-top:20px;
 }
 
 .video-section {
@@ -906,9 +894,27 @@ a.bit-event-description-link.toggle-comments {
     margin-right:auto;
 }
 
+/* Spotify Embed Responsively */
+
+.spotify-embeds {
+  width: 100%;
+  padding: 50px;  
+}
+
+.spotify-embed > iframe {
+    display: block;
+    transition: opacity 0.125s;
+}
+
+
+
 /* OOCSS classes ============================================ */
 
 /* DISPLAY STYLES */
+
+.dtable {
+    display: table;
+}
 
 .dtablecell {
     display: table-cell;
@@ -924,6 +930,18 @@ a.bit-event-description-link.toggle-comments {
 
 .dinline {
   display: inline;
+}
+
+.flex {
+    display: flex;
+}
+
+.flr {
+    flex-direction: row;
+}
+
+.fjcsa {
+    justify-content: space-around;
 }
 
 /* TYPE WEIGHT */
@@ -1005,6 +1023,11 @@ a.bit-event-description-link.toggle-comments {
 }
 
 /* POSITION */
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .pr {
   position:relative;

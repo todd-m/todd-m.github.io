@@ -211,11 +211,10 @@
                             <iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A4gtw1qOY9aTfNAxtGFHXGT" width="340" height="80" frameborder="0" allowtransparency="true"></iframe>
                         </div>
 
-
                     </div>
 
                     <!-- Follow on Spotify Button -->
-                    <div id="spotify-follow" class="center" style="width: 135px; overflow: visible;"> <!-- Inline width -->
+                    <div id="spotifyFollow" class="center spotify-follow" style="width: 135px; overflow: visible;"> <!-- Inline width -->
                         <iframe src="https://embed.spotify.com/follow/1/?uri=spotify:artist:1bFTN5x21lxMWmnkRv2l4x&size=basic&theme=dark" width="" height="25" scrolling="no" frameborder="0"  allowtransparency="true"></iframe>
                     </div>
                 </div>               
@@ -665,8 +664,10 @@
           ga('send', 'event', 'button', 'click', 'social google plus');
         }); 
         // Follow - Spotify
-        $('#spotify-follow').on('click', function() {
-          ga('send', 'event', 'button', 'click', 'follow spotify');
+        $('.spotify-follow').click(function() {
+          var selId = $(this).attr('spotifyFollow');
+          _gaq.push(['_trackEvent', 'Interactions', 'Click', selId]);
+
         });
     </script>
 </body>

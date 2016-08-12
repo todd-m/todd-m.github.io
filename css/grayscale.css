@@ -910,7 +910,9 @@ a.bit-event-description-link.toggle-comments {
     transition: opacity 0.125s;
 }
 
-
+.mw-250 {
+    max-width: 250px;
+}
 
 /* OOCSS classes ============================================ */
 

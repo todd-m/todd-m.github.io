@@ -82,6 +82,10 @@ th {
     text-align: center;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .light {
     font-weight: 400;
 }

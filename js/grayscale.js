@@ -86,7 +86,6 @@ $(window).on('load resize', function() {
   });
 });
 
-
 // Current Date
 var d = new Date();
 var n = d.getFullYear();

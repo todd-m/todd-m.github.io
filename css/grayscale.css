@@ -739,7 +739,7 @@ a.bit-event-description-link.toggle-comments {
 /* Show History */
 
 .show-history td:nth-child(1){
-    width: 20%;
+    width: 25%;
 }
 
 .show-history td:nth-child(2){

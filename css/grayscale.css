@@ -897,6 +897,10 @@ a.bit-event-description-link.toggle-comments {
     margin-right: 0px;
 }
 
+#mc_embed_signup #mce-success-response {
+    margin: 0 auto !important;
+    width: 100%;
+
 /* Photos section */
 
 .photo-column {

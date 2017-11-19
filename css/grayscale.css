@@ -663,95 +663,17 @@ body {
 }
 
 /* BandsinTown Widget */
-#bit-events {
-width: 100%;
-position: relative;
-top: -40px;
-}
-
-#bit-events a.bit-track-artist-header {
-visibility: hidden;
-}
-
 .bit-events th, .bit-location, .bit-venue, .bit-date {
     font-family: Cutive Mono;
     font-size: 14px;
 }
 
-.bit-date {
-  position: relative;
-  right: 16px;
+.bit-event-list-title {
+    font-family: Cutive Mono,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-.bit-header tr {
-    display: table-header-group;
-    vertical-align: middle;
-    border-color: inherit;
-}
-
-.bit-events tr:nth-child(2) {
-    border-bottom: 2px solid #fff;
-}
-
-td.bit-venue{
-    margin-left: 40px !important;
-}
-
-.bit-tickets, .bit-artist-event-link, .bit-rsvp {
-    /*display:none;*/
-}
-
-.bit-rsvp {
-    display:none;
-}
-
-#bit-events td.bit-tickets, #bit-events th.bit-tickets {
-    width: auto !important;
-    padding-right: 8px;
-    text-align: right;
-}
-
-a.bit-buy-tix {
-    text-align:right !important;
-    float: right !important;
-}
-
-tr.bit-header {
-visibility: hidden;
-}
-
-td.bit-date {
-    width:60px !important;
-}
-
-#bit-events td .bit-uiButton {
-/*visibility: hidden;*/
-}
-
-a.bit-event-description-link.toggle-comments {
-/*visibility: hidden;*/
-}
-
-.table, .table th {
-    text-align:left;
-}
-
-/* Show History */
-
-.show-history td:nth-child(1){
-    width: 25%;
-}
-
-.show-history td:nth-child(2){
-    width: 40%;
-    max-width: 100px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.show-history td:nth-child(3){
-    width: 40%;
+.bit-button {
+    border-radius: 3px;
 }
 
 /* Quotes */

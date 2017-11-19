@@ -663,6 +663,10 @@ body {
 }
 
 /* BandsinTown Widget */
+.bit-events-container {
+    margin-top: 40px;
+}
+
 .bit-events th, .bit-location, .bit-venue, .bit-date {
     font-family: Cutive Mono;
     font-size: 14px;

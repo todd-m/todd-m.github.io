@@ -516,11 +516,11 @@ body {
     opacity: 0;
     z-index: 0;
     -webkit-backface-visibility: hidden;
-    -webkit-animation: imageAnimation 36s linear 0s;
-    -moz-animation: imageAnimation 36s linear 0s;
-    -o-animation: imageAnimation 36s linear 0s;
-    -ms-animation: imageAnimation 36s linear 0s;
-    animation: imageAnimation 36s linear 0s; 
+    -webkit-animation: imageAnimation 10s linear 0s;
+    -moz-animation: imageAnimation 10s linear 0s;
+    -o-animation: imageAnimation 10s linear 0s;
+    -ms-animation: imageAnimation 10s linear 0s;
+    animation: imageAnimation 10s linear 0s; 
     /* Linear anim stop at end */
     -webkit-animation-fill-mode: forwards;
     -moz-animation-fill-mode: forwards;
@@ -530,91 +530,8 @@ body {
 
 }
 .cb-slideshow li:nth-child(1) span { 
-    background-image: url(../img/MWLovesYou.jpg);
+    background-image: url(../img/madamwest-stretchy.jpg);
 }
-.cb-slideshow li:nth-child(2) span { 
-    background-image: url(../img/MadamWest-Sophie-CmonEverybody.jpg);
-}
-/*
-.cb-slideshow li:nth-child(3) span { 
-    background-image: url(../img/MadamWest-Live.jpg);
-    -webkit-animation-delay: 12s;
-    -moz-animation-delay: 12s;
-    -o-animation-delay: 12s;
-    -ms-animation-delay: 12s;
-    animation-delay: 12s; 
-}
-.cb-slideshow li:nth-child(4) span { 
-    background-image: url(../img/rogue-bar.jpg);
-    -webkit-animation-delay: 18s;
-    -moz-animation-delay: 18s;
-    -o-animation-delay: 18s;
-    -ms-animation-delay: 18s;
-    animation-delay: 18s; 
-}
-.cb-slideshow li:nth-child(5) span { 
-    background-image: url(../img/MadamWest-Freddys.jpg);
-    -webkit-animation-delay: 24s;
-    -moz-animation-delay: 24s;
-    -o-animation-delay: 24s;
-    -ms-animation-delay: 24s;
-    animation-delay: 24s; 
-}
-.cb-slideshow li:nth-child(6) span { 
-    background-image: url(../img/MadamWest.ChristineLockerby-Rooftop2.jpg);
-    -webkit-animation-delay: 30s;
-    -moz-animation-delay: 30s;
-    -o-animation-delay: 30s;
-    -ms-animation-delay: 30s;
-    animation-delay: 30s; 
-}*/
-
-/* Animation for the slideshow images */
-/*@-webkit-keyframes imageAnimation { 
-    0% { opacity: 0;
-    -webkit-animation-timing-function: ease-in; }
-    8% { opacity: 1;
-         -webkit-animation-timing-function: ease-out; }
-    17% { opacity: 1 }
-    25% { opacity: 0 }
-    100% { opacity: 0 }
-}
-@-moz-keyframes imageAnimation { 
-    0% { opacity: 0;
-    -moz-animation-timing-function: ease-in; }
-    8% { opacity: 1;
-         -moz-animation-timing-function: ease-out; }
-    17% { opacity: 1 }
-    25% { opacity: 0 }
-    100% { opacity: 0 }
-}
-@-o-keyframes imageAnimation { 
-    0% { opacity: 0;
-    -o-animation-timing-function: ease-in; }
-    8% { opacity: 1;
-         -o-animation-timing-function: ease-out; }
-    17% { opacity: 1 }
-    25% { opacity: 0 }
-    100% { opacity: 0 }
-}
-@-ms-keyframes imageAnimation { 
-    0% { opacity: 0;
-    -ms-animation-timing-function: ease-in; }
-    8% { opacity: 1;
-         -ms-animation-timing-function: ease-out; }
-    17% { opacity: 1 }
-    25% { opacity: 0 }
-    100% { opacity: 0 }
-}
-@keyframes imageAnimation { 
-    0% { opacity: 0;
-    animation-timing-function: ease-in; }
-    8% { opacity: 1;
-         animation-timing-function: ease-out; }
-    17% { opacity: 1 }
-    25% { opacity: 0 }
-    100% { opacity: 0 }
-}*/
 
 /* Single Image Backgroud */
 @-webkit-keyframes imageAnimation { 

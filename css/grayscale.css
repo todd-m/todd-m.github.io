@@ -33,6 +33,11 @@ html {
     height: 100%;
 }
 
+h2 {
+    margin-top: 60px !important;
+    margin-bottom: 60px !important;
+}
+
 h1,
 h2,
 h3,
@@ -165,6 +170,10 @@ th {
     .navbar-custom.top-nav-collapse {
         border-bottom: 1px solid rgba(255,255,255,.3);
     }
+}
+
+.navbar-collapse .nav li a {
+    text-align: right;
 }
 
 .intro {

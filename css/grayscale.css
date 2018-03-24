@@ -772,8 +772,7 @@ body {
 /* Spotify Embed Responsively */
 
 .spotify-embeds {
-  width: 100%;
-  padding: 50px;  
+  margin-bottom: 40px;
 }
 
 .spotify-embed > iframe {

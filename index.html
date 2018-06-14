@@ -306,6 +306,14 @@
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Shows</h2>
 
+                <img src="img/national-sawdust.png" alt="" style="width: 50%;">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <p class="mtl" style="font-size:12pt;">Aug. 25: National Sawdust w/ RAE ISLA, Hadassah </br>
+                        <a href="https://nationalsawdust.org/event/the-revolution-vol-30/" target="blank" id="sawdustLink">Tickets</a> (use the code "MADAM5 for $5 off!)</p>
+                    </div>
+                </div>
+
                 <div class="mbl">
                     <script charset="utf-8" src="https://widget.bandsintown.com/main.min.js"></script><a class="bit-widget-initializer" data-artist-name="Madam West" data-display-local-dates="false" data-display-past-dates="true" data-auto-style="false" data-text-color="#FFFFFF" data-link-color="#F5C15E" data-popup-background-color="#000000" data-background-color="#000000" data-display-limit="15" data-link-text-color="#FFFFFF"></a>
                 </div>
@@ -441,6 +449,11 @@
         // Vinyl - Bandcamp
         $('#linkToVinyl').on('click', function() {
           ga('send', 'event', 'button', 'click', 'Bandcamp vinyl link');
+        }); 
+
+        // National Sawdust Concert Link
+        $('#sawdustLink').on('click', function() {
+          ga('send', 'event', 'button', 'click', 'tickets National Sawdust');
         }); 
     </script>
 </body>

@@ -376,8 +376,44 @@ src="https://www.facebook.com/tr?id=252075319858131&ev=PageView&noscript=1"
     <footer>
         <div class="container text-center copywrite">
             <p>Copyright &copy; Madam West <span id="current-date"></span></p>
+              <div id="tos-link"><p>Terms of Service / Privacy Policy</p></div>
+              <div id="tos-body" style="display:none">
+                  Your privacy is important to us. It is Madam West's policy to respect your privacy regarding any information we may collect from you on our website.
+
+
+We only ask for personal information when we truly need it. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we’re collecting it and how it will be used.
+
+
+We only retain collected information for as long as necessary to provide you with your requested service (like our newsletter!). What data we store, we’ll protect within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use or modification.
+
+
+We don’t share any personally identifying information publicly or with third-parties, except when required to by law.
+
+
+Our website may link to external sites that are not operated by us (Spotify, social media, etc.). Please be aware that we have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.
+
+
+Your continued use of our website will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to contact us.
+
+
+This policy is effective as of 15 February 2021.
+              </div>
+              <div id="cookies-link"><p>Cookies Notice</p></div>
+              <div id="cookies-body" style="display:none">We use cookies to offer you a better browsing experience, personalise content and ads, to provide social media features and to analyse our traffic. You consent to our cookies if you continue to use this website.
+              </div>
         </div>
     </footer>
+
+    <!-- footer disclaimers -->
+    <script>
+        $('#cookies-link').on('click', function() {
+            $('#cookies-body').toggle();
+        });
+
+        $('#tos-link').on('click', function() {
+            $('#tos-body').toggle();
+        });
+    </script>
 
     <!-- jQuery Version 1.11.0 -->
     <script src="js/jquery-1.11.0.js"></script>

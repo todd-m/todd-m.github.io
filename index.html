@@ -435,7 +435,7 @@ src="https://www.facebook.com/tr?id=428329891719849&ev=PageView&noscript=1"
         // Listen on Spotify link
         $('#listen-on-spotify').on('click', function() {
           ga('send', 'event', 'button', 'click', 'listen on spotify');
-          fbq('trackCustom', 'TEST1', {link: 'spotify-listen'});
+          fbq('track', 'ViewContent', {'content_name': 'spotify'});
         });
 		// News Button
         $('#latest-link').on('click', function() {

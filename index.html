@@ -142,7 +142,7 @@ src="https://www.facebook.com/tr?id=428329891719849&ev=PageView&noscript=1"
                 <div class="row ptxl mtxl">
                     <div class="col-md-8 col-md-offset-2 mtxl">
                         <h1 class="brand-heading mtxl ptxl">MADAM WEST</h1>
-                        <p class="intro-text"><br>New single IN COLOR <br><a id ="listen-on-spotify" href="https://spoti.fi/3ndQ3yy" target="blank">Listen on Spotify</a></p>
+                        <p class="intro-text"><br>New single FEBRUARY GOAT <br><a id ="listen-on-spotify" href="https://open.spotify.com/track/5Iyy22NaytFvjFdMnFTRCe" target="blank">Listen on Spotify</a></p>
                     </div>
                 </div>
             </div>
@@ -440,6 +440,7 @@ src="https://www.facebook.com/tr?id=428329891719849&ev=PageView&noscript=1"
 		// News Button
         $('#latest-link').on('click', function() {
           ga('send', 'event', 'button', 'click', 'latest news link');
+          fbq('track', 'ViewContent', {'content_name': 'news'});
         });
     	// Subscribe to Newsletter
         $('.mailchimp-submit').on('click', function() {
